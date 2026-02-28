@@ -121,6 +121,11 @@ footer {
     font-size: 16px;
 }
 
+.map-section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
 /* MOBILE RESPONSIVE FIX */
 @media (max-width: 768px) {
 
@@ -155,4 +160,5 @@ footer {
     }
 
 }
+
 
