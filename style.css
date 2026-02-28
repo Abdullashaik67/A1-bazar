@@ -110,17 +110,49 @@ footer {
   color: #e91e63;
 }
 
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .products {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .categories {
-    flex-direction: column;
-  }
-
+/* CONTACT SECTION */
+.contact {
+    text-align: center;
+    padding: 40px 20px;
 }
 
+.contact p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* MOBILE RESPONSIVE FIX */
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .nav-logo {
+        font-size: 18px;
+    }
+
+    nav ul li {
+        margin-left: 15px;
+    }
+
+    .categories {
+        padding: 20px;
+    }
+
+    .cat {
+        width: 100%;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .contact {
+        padding: 30px 15px;
+    }
+
+    .contact p {
+        font-size: 15px;
+    }
+
+}
 
