@@ -141,3 +141,38 @@ footer {
     }
 
 }
+/* Make full height layout */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Main content wrapper */
+.page-section {
+    min-height: 70vh;   /* fill most of screen */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Footer fixed at bottom properly */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Improve mobile spacing */
+@media (max-width: 768px) {
+
+    .page-section {
+        min-height: 75vh;
+        padding: 50px 15px;
+    }
+
+    h1, h2 {
+        font-size: 24px;
+    }
+
+}
+
